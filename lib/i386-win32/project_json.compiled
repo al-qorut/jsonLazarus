@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\laz4android2.0.0\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1266908408"/>
+  <Params Value=" -MObjFPC -Scghi -CX -WR -Os3 -XX -WG -l -vewnhibq -FiD:\MyDev\lazarus\jSon\lib\i386-win32 -FuC:\laz4android2.0.0\lcl\units\i386-win32\win32 -FuC:\laz4android2.0.0\lcl\units\i386-win32 -FuC:\laz4android2.0.0\components\lazutils\lib\i386-win32 -FuC:\laz4android2.0.0\packager\units\i386-win32 -FuD:\MyDev\lazarus\jSon\ -FUD:\MyDev\lazarus\jSon\lib\i386-win32\ -FED:\MyDev\lazarus\jSon\ -oD:\MyDev\lazarus\jSon\project_json.exe -dLCL -dLCLwin32 project_json.lpr"/>
+</CONFIG>

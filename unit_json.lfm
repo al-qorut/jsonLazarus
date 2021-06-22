@@ -1,0 +1,152 @@
+object Form1: TForm1
+  Left = 365
+  Height = 525
+  Top = 141
+  Width = 894
+  Caption = 'Form1'
+  ClientHeight = 525
+  ClientWidth = 894
+  OnCreate = FormCreate
+  LCLVersion = '2.0.0.4'
+  object Memo1: TMemo
+    Left = 8
+    Height = 497
+    Top = 8
+    Width = 200
+    Anchors = [akTop, akLeft, akBottom]
+    Lines.Strings = (
+      '{"user":'
+      '    {    "userid": 1900,'
+      '        "username": "jsmith",'
+      '        "password": "secret",'
+      '        "groups": [ "admins", "users", "maintainers"]'
+      '    }'
+      '}'
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 216
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Field'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 216
+    Height = 23
+    Top = 48
+    Width = 238
+    TabOrder = 2
+    Text = 'user.username'
+  end
+  object Memo2: TMemo
+    Left = 212
+    Height = 419
+    Top = 80
+    Width = 242
+    Anchors = [akTop, akLeft, akBottom]
+    Lines.Strings = (
+      'Memo2'
+    )
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Array'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 381
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Load'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object ComboBox1: TComboBox
+    Left = 464
+    Height = 23
+    Top = 11
+    Width = 184
+    ItemHeight = 15
+    OnChange = ComboBox1Change
+    TabOrder = 6
+  end
+  object Memo3: TMemo
+    Left = 464
+    Height = 90
+    Top = 40
+    Width = 424
+    Anchors = [akTop, akLeft, akRight]
+    Lines.Strings = (
+      'Memo3'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 7
+  end
+  object Memo4: TMemo
+    Left = 464
+    Height = 90
+    Top = 136
+    Width = 424
+    Anchors = [akTop, akLeft, akRight]
+    Lines.Strings = (
+      'Memo4'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 8
+  end
+  object Memo5: TMemo
+    Left = 464
+    Height = 90
+    Top = 234
+    Width = 424
+    Anchors = [akTop, akLeft, akRight]
+    Lines.Strings = (
+      'Memo5'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 9
+  end
+  object ComboBox2: TComboBox
+    Left = 468
+    Height = 23
+    Top = 331
+    Width = 124
+    ItemHeight = 15
+    OnChange = ComboBox2Change
+    TabOrder = 10
+  end
+  object StringGrid1: TStringGrid
+    Left = 469
+    Height = 140
+    Top = 372
+    Width = 411
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ColCount = 2
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 11
+    ColWidths = (
+      130
+      886
+    )
+    Cells = (
+      2
+      0
+      0
+      'Type'
+      1
+      0
+      'Pertanyaan'
+    )
+  end
+end
